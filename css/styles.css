@@ -1,0 +1,222 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+:root {
+  --brand-color: #434455;
+  --brand-color-1: #4d5ae5;
+  --brand-color-2: #ffffff;
+  --brand-color-3: #2E2F42;
+  --brand-color-4: #404bbf;
+  --brand-color-5: #F4F4FD;
+}
+.container {
+  width: 1158px;
+  margin: 0px 156px;
+  padding: 0px auto;
+}
+header {
+
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-1);
+  padding:24px 0px 24px 0px;
+
+}
+.link {
+  text-decoration:none;
+}
+.logo-col {
+  color: var(--brand-color-3);
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+.menu { 
+  color: var(--brand-color-3);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu:hover,
+.menu:focus {
+  color: var(--brand-color-4);
+}
+.contact {
+    font-style: normal;
+    list-style: none;
+}
+.cont {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.cont:hover,
+.cont:focus {
+    color: var(--brand-color-4);
+}
+main {
+  position: absolute;
+}
+.hero-image {
+  background-color: var(--brand-color-3);
+  width: 1440px;
+height: 600px;
+margin: 0px -156px;
+position: absolute;
+}
+.tagline {
+  color: var(--brand-color-2);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding: 188px 472px 0px 472px;
+  margin: 0;
+}
+.order-service {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--brand-color-1);
+  color: var(--brand-color-2);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  display: flex;
+  padding: 16px 32px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin: 48px auto;
+justify-content: center;
+}
+.order-service:hover,
+.order-service:focus {
+    background-color: var(--brand-color-4);
+}
+.section-1 h2 {
+  display: none;
+}
+.feature-text {
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--brand-color);
+  letter-spacing: 0.02em;
+}
+.feature {
+  font-size: 20px;
+  color: var(--brand-color-3);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.w_a_w_d {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color-3);
+}
+.sec {
+    background-color: var(--brand-color-5);
+}
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color-3);
+}
+.card {
+    background-color: var(--brand-color-2);
+}
+.name {
+    font-size: 20px;
+    color: var(--brand-color-3);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.work-position {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+.footer {
+  background-color: var(--brand-color-3);
+  color: var(--brand-color-5);
+}
+.logo-col-w {
+    color: var(--brand-color-5);
+}
+/* portfolio styles */
+.filter h1 {
+  display: none;
+}
+.filter-button {
+  background-color: var(--brand-color-5);
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--brand-color-4);
+  color: var(--brand-color-2);
+}
+.project-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-3);
+}
+.type {
+    font-size: 16p;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+nav ul {
+align-items: flex-start;
+gap: 40px;
+padding: 24px 0px 24px 76px;
+margin: 0px;
+}
+nav {
+  display: flex
+}
+address ul {
+  padding: 24px 0px 24px 332px;
+  gap: 40px;
+  margin: 0px;
+}
+.section-1 ul {
+  margin: 600px 0px 0px 0px;
+  padding: 0;
+}
+.section-2 ul {
+
+}

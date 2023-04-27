@@ -265,8 +265,8 @@ padding: 12px 24px;
   gap: 24px;
 }
 .portfolio li {
-  flex-basis: calc(100%/ 3);
-  width:360px;
+  flex-basis: calc((100%-30px)/ 3);
+  width: 360px;
 }
 .img {
   display: block;

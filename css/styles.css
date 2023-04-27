@@ -255,11 +255,11 @@ min-width: 169px;
 }
 .buttons {
   margin-top: 0px;
-  margin-bottom: 0px;
 padding: 0px;
 gap: 24px;
 justify-content: center;
 display: flex;
+margin-bottom: 72px;
 }
 .filter-button {
   background-color: var(--brand-color-5);
@@ -283,7 +283,7 @@ padding: 12px 24px;
 }
 .portfolio {
   flex-wrap: wrap;
-  padding: 72px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   margin: 0;
   gap: 24px;
   display: flex;
@@ -308,13 +308,14 @@ padding: 12px 24px;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+    margin-bottom: 8px
 }
 .type {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-    margin-top: 8px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
 }

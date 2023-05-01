@@ -46,7 +46,7 @@ section {
 .main-menu {
 	display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 .main-menu .list {
 	gap: 40px;
@@ -111,7 +111,6 @@ section {
 .tagline {
   color: var(--brand-color-2);
   max-width: 496px;
-	width: 100%;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -257,8 +256,7 @@ section {
 .text-footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 279px;
-	width: 100%;
+  max-width: 264px;
   margin: 0;
 }
 
